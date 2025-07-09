@@ -26,7 +26,7 @@
 
 
 
- **Upcoming Experiments **
+ **Upcoming Experiments**
 
 1. **Handling Discriminator Dominance**
 
