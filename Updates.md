@@ -2,7 +2,7 @@
 
  **Recent Improvements**
 
-1. **Dataset Size **
+1. **Dataset Size**
    Trained with 5,000 images
 
 2. **Discriminator Behavior Improved**
