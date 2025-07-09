@@ -46,3 +46,8 @@
 
 3. **Increasing Dataset**
    * Also will increase the dataset, most probably 8K (Done)
+  
+     
+4. **Adding Label Smoothing in Discriminator**
+   * To make it more usefull feedback to improve generation
+   * To make it less confident, as loss is approches to 0 after couple of epochs
