@@ -33,16 +33,16 @@
    * Issue: Discriminator loss still approaches **zero after 5 epochs**, causing an **adversarial imbalance**.
    * Plan:
 
-     * Introduce **dropout** in the discriminator to regularize learning.
-     * Try **training the discriminator less frequently** (e.g., once every 2 epochs) to give the generator more room to improve.
+     * Introduce **dropout** in the discriminator to regularize learning.(Have Tried)
+     * Try **training the discriminator less frequently** (e.g., once every 2 epochs) to give the generator more room to improve. (Have Tried)
 
 2. **Improving Generator Guidance**
 
    * Issue: Generator loss becomes stagnant; likely due to overpowered discriminator or limited capacity to adapt.
    * Plan:
 
-     * Increase **perceptual loss weight** in the combined loss to enhance **feature-level supervision**, helping the generator focus more on visual details.
+     * Increase **perceptual loss weight** in the combined loss to enhance **feature-level supervision**, helping the generator focus more on visual details. (scale the Perceptual loss to 1.7, this only increased the loss but could not help)
      * **Unfreeze more layers** of the pretrained generator (currently only the last CNN layer is unfrozen) to allow it to **better adapt to the specific dataset**.
 
 3. **Increasing Dataset**
-   * Also will increase the dataset, most probably 8K
+   * Also will increase the dataset, most probably 8K (Done)
