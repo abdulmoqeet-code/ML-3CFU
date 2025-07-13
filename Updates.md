@@ -54,5 +54,8 @@
    * To make it less confident, as loss is approches to 0 after couple of epochs
 5. **Data Argumenation** 
    * I applied random data augmentations including horizontal flipping, rotation (±10°), and color jittering           (brightness, contrast, saturation) to increase dataset diversity. Additionally, I resized images to ensure        consistent low-resolution and high-resolution sizes.
+6. **Unfreezing additional model layers**
+   * First I Have tried with 1,2 now trying with last 10 layers(have attached the output also in result folder 
+    for comparison)
   
 * I've trained the model for 10 epochs on 64x64 images, achieving better results than before, including the generation of facial features. I'll now restart the model from this 10-epoch checkpoint and compare the results after 20 epochs; if the outcome improves, I'll continue training the model further, otherwise, I'll resume training after making some updates.
