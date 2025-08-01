@@ -1,7 +1,7 @@
 
 #  Real-ESRGAN Super-Resolution Project
 
-## ✅ Project Summary
+## Project Summary
 
 This project aimed to convert **low-resolution (LR) images** into **high-resolution (HR) images** using a deep learning model called **Real-ESRGAN (Real Enhanced Super-Resolution Generative Adversarial Network)**.
 
